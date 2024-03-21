@@ -1,0 +1,25 @@
+div{
+    max-width: 17rem;
+}
+  
+div > p {
+    height: 2rem;
+    width: auto;
+    object-fit: contain;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--nav-bar-text-color);
+    font-family: var(--font-titulo);
+}
+
+.paragrafo-footer {
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: var(--nav-bar-text-color);
+    margin: 2rem 0;
+}
+.paragrafo-footer p {
+    font-family: var(--font-titulo);
+    font-size: 12px;
+}
