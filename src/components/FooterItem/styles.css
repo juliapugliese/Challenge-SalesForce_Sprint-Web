@@ -8,7 +8,6 @@ div > p {
     width: auto;
     object-fit: contain;
     font-size: 14px;
-    font-weight: 600;
     color: var(--nav-bar-text-color);
     font-family: var(--font-titulo);
 }

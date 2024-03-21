@@ -7,7 +7,7 @@ const NavItems = (props: Props) => {
 
     return (
         <li id={props.id}>
-            <Link href={props.link}>{props.text}</Link>
+            <Link href={props.link}>{props.text || props.img}</Link>
             {props.children}
         </li>
     );

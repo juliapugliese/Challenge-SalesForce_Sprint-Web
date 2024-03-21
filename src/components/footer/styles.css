@@ -1,25 +1,20 @@
 footer {
     background-image: url("/footer-image.svg");
     background-size: cover;
-    padding: 20rem 6% 2%;
-}
-
-footer .conteudo-footer {
+    padding: 20rem 6% 5% 2%;
+    
     display: flex;
     text-align: left;
     flex-direction: row;
     justify-content: space-between;
     gap: 40px;
 }
-footer .conteudo-footer div{
+
+
+footer  div{
     max-width: 12rem;
 }
   
-.paragrafo-footer p {
-    font-family: var(--font-titulo);
-    font-size: 12px;
-    font-weight: normal;
-}
 
 footer .conteudo-ilustrativo-footer {
     display: flex;
@@ -50,7 +45,7 @@ footer .conteudo-ilustrativo-footer .copyright .copyright-text {
     font-family: var(--font-titulo);
     margin-bottom: 1rem;
 }
-
+ 
 footer .logos-footer {
     width: 8rem;
 }
@@ -60,40 +55,12 @@ footer .baixe-nosso-app {
     flex-direction: column;
 }
 
-footer .baixe-nosso-app .app-playstore {
+footer .baixe-nosso-app > img {
     width: 10rem;
 }
 
 
 
-
-
-/* footer .grupo-footer {
-    max-width: 17rem;
-}
-
-  
-footer .grupo-footer  > p {
-    height: 2rem;
-    width: auto;
-    object-fit: contain;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--nav-bar-text-color);
-    font-family: var(--font-titulo);
-}
-
-.paragrafo-footer {
-    row-gap: 10px;
-    display: flex;
-    flex-direction: column;
-    color: var(--nav-bar-text-color);
-    margin: 2rem 0;
-}
-.paragrafo-footer p {
-    font-family: var(--font-titulo);
-    font-size: 12px;
-} */
 
 
 
