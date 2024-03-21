@@ -22,4 +22,5 @@ div > p {
 .paragrafo-footer p {
     font-family: var(--font-titulo);
     font-size: 12px;
+    font-weight: normal;
 }

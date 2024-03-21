@@ -1,15 +1,13 @@
-import {PropsFooterItem} from './interfaces'
+import { Props } from "./interfaces"
 import "./styles.css"
 
-const FooterItem = (props: PropsFooterItem) => 
+const FooterItem = (props: Props) => 
 {
     return(
         <div>
             <p>{props.title}</p>
             <div className="paragrafo-footer">
-                <p>{props.line}<br/></p>
-                <p>{props.line}</p>
-                <p>{props.line}</p>
+               {props.children}
             </div>
         </div>
     )

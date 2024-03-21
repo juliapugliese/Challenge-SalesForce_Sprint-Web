@@ -1,4 +1,4 @@
-export interface PropsFooterItem {
+export interface Props{
     title: string;
-    line: string;
+    children: any;
 }
