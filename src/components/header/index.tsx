@@ -1,6 +1,7 @@
 'use client'
 import "./styles.css"
 import NavItems from "../NavItems";
+import DropDown from "../DropDown";
 
 
 export function Header() {
@@ -11,37 +12,27 @@ export function Header() {
                     <NavItems link="https://www.salesforce.com/br">
                         <img src="salesforce-logo.png" alt="Logo da SalesForce"/>
                     </NavItems>
-                    
-                    {/*<li>
-                        <a href="https://www.salesforce.com/br">
-                            <img src="salesforce-logo.png" alt="Logo da SalesForce"/>
-                        </a>
-                    </li>*/}
 
+                    
+                    <DropDown text="Produtos"/>
+{/* 
                     <li className="dropdown">
                         <a href="">Produtos</a>
-                    </li>
+                    </li> */}
 
-                    <NavItems link="http://salesforce.com" text="Empresa"></NavItems>
-                    <NavItems link="http://salesforce.com" text="Suporte"></NavItems>
-                    <NavItems link="http://salesforce.com" text="Aprendizado"></NavItems>
-
+                    <NavItems link="http://salesforce.com" text="Empresa"/>
+                    <NavItems link="http://salesforce.com" text="Suporte"/>
+                    <NavItems link="http://salesforce.com" text="Aprendizado"/>
 
                 </ul>
-                <ul className="icones-conta">
+                <ul>
 
                     <NavItems id="icone-busca" link="http://salesforce.com">
-                        <img className="logo-barra-pesquisa"  src="assets/search-icon.svg" alt=""/>
+                        <img className="logo-barra-pesquisa"  src="search-icon2.svg" alt=""/>
                     </NavItems>
 
-                    <li id="icone-busca">
-                        <a href="http://salesforce.com">
-                            <img className="logo-barra-pesquisa"  src="assets/search-icon.svg" alt=""/>
-                        </a>
-                    </li>
-
-                    <NavItems id="login" link="http://salesforce.com" text="Login"></NavItems>
-                    <li id="teste-gratis"><a href="http://salesforce.com">Teste Grátis</a></li>
+                    <NavItems id="login" link="http://salesforce.com" text="Login"/>
+                    <NavItems id="teste-gratis" link="http://salesforce.com" text="Teste Grátis"/>
                 </ul>
             </nav>
         </header>

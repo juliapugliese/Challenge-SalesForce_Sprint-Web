@@ -1,0 +1,8 @@
+section{
+    width: 100%;
+    background-color: white;
+}
+
+li:hover{
+    cursor: pointer;
+}

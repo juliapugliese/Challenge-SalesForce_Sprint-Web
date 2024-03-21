@@ -11,8 +11,15 @@ footer .conteudo-footer {
     justify-content: space-between;
     gap: 40px;
 }
+footer .conteudo-footer div{
+    max-width: 12rem;
+}
   
-
+.paragrafo-footer p {
+    font-family: var(--font-titulo);
+    font-size: 12px;
+    font-weight: normal;
+}
 
 footer .conteudo-ilustrativo-footer {
     display: flex;
@@ -61,10 +68,7 @@ footer .baixe-nosso-app .app-playstore {
 
 
 
-
-
-
-footer .grupo-footer {
+/* footer .grupo-footer {
     max-width: 17rem;
 }
 
@@ -89,7 +93,10 @@ footer .grupo-footer  > p {
 .paragrafo-footer p {
     font-family: var(--font-titulo);
     font-size: 12px;
-}
+} */
+
+
+
 
 
 

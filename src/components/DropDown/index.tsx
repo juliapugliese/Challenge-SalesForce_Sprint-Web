@@ -5,13 +5,16 @@ import Link from "next/link";
 
 const DropDown = (props: Props) => {
     const click1 = () => {
-        console.log('Click1');
+        return(
+        <section>
+            <h1>jsdnfcz,dsnvc</h1>
+        </section>
+        )
       }
 
     return (
-        <li onClick={click1} className={props.type}>
+        <li onClick={click1}>
             {props.text}
-            <Link href={""}></Link>
         </li>
     );
 };

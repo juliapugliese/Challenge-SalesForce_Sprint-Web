@@ -1,5 +1,6 @@
 div{
-    max-width: 17rem;
+    min-width: 7rem;
+
 }
   
 div > p {
@@ -12,15 +13,19 @@ div > p {
     font-family: var(--font-titulo);
 }
 
-.paragrafo-footer {
+div > .paragrafo-footer {
     row-gap: 10px;
     display: flex;
     flex-direction: column;
     color: var(--nav-bar-text-color);
     margin: 2rem 0;
 }
-.paragrafo-footer p {
+
+
+.paragrafo-footer a {
     font-family: var(--font-titulo);
     font-size: 12px;
-    font-weight: normal;
+    text-decoration: none;
+    color: var(--action-color);
+
 }

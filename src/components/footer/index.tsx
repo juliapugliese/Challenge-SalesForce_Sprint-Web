@@ -1,12 +1,14 @@
 import "./styles.css";
-import FooterItem from "../grupo-footer";
+import FooterItem from "../Grupo-footer";
+import LinkFooter from "../LinkFooter";
 
 export function Footer() {
   return (
     <footer>
       <div className="conteudo-footer">
+
         <div className="conteudo-ilustrativo-footer">
-          <img className="logos-footer" src="assets/Salesforce-Logo.png" />
+          <img className="logos-footer" src="Salesforce-Logo.png" />
 
           <div>
             <div className="copyright">
@@ -34,74 +36,52 @@ export function Footer() {
         </div>
 
         <FooterItem title="Empresa">
-            <p>Sobre nós</p>
-            <p>Careira</p>
-            <p>Política de Privacidade</p>
-            <p>Termos de Serviço</p>
+          <LinkFooter link="https://www.salesforce.com/br/company/our-story/" text="Nossa história"/>
+
+
+          <LinkFooter link="https://www.salesforce.com/br/blog/" text="Blog"/>
+          <LinkFooter link="https://careers.salesforce.com/en/" text="Carreiras"/>
+          <LinkFooter link="https://trust.salesforce.com/" text="Segurança"/>
+          <LinkFooter link="https://www.salesforce.org/" text="Salesforce.org"/>
+          <LinkFooter link="https://www.salesforce.com/company/sustainability/" text="Sustentabilidade"/>
+          <LinkFooter link="https://investor.salesforce.com/overview/default.aspx" text="Investidores"/>
+          <LinkFooter link="https://www.salesforce.com/company/feedback/" text="Dê-nos o seu feedback"/>
+          
+
+        </FooterItem>
+        
+        <FooterItem title="Links populares">
+
+
+          <LinkFooter link="" text=""/>
+          <LinkFooter link="" text=""/>
+          <LinkFooter link="" text=""/>
+          <LinkFooter link="" text=""/>
+          <LinkFooter link="" text=""/>
+
         </FooterItem>
 
-        <div className="grupo-footer">
-          <p className="titulo-footer">Empresa</p>
-          <div className="paragrafo-footer">
-            <p>Sobre nós</p>
-            <p>Careira</p>
-            <p>Política de Privacidade</p>
-            <p>Termos de Serviço</p>
-          </div>
-        </div>
+        <FooterItem title="NotreDame Intermédica">
+          <p>Ouvidoria 0800 015 3855</p>
+          <p>Central de Serviços (11) 3155 2300</p>
+          <p>Deficientes de áudio e fala 0800 770 0330</p>
+          <p>SAC 0800-015-3855</p>
+        </FooterItem>
 
-        <div className="grupo-footer">
-          <p className="titulo-footer">Hapvida</p>
-          <div className="paragrafo-footer">
-            <p>
-              Atendimento 4002-3633
-              <br />
-            </p>
-            <p>Call Center 0300-313-3633</p>
-            <p>SAC 0800-280-9130</p>
-          </div>
-        </div>
 
-        <div className="grupo-footer">
-          <p className="titulo-footer">
-            NotreDame
-            <br />
-            Intermédica
-          </p>
-          <div className="paragrafo-footer">
-            <p>Ouvidoria 0800 015 3855</p>
-            <p>Central de Serviços (11) 3155 2300</p>
-            <p>Deficientes de áudio e fala 0800 770 0330</p>
-            <p>SAC 0800-015-3855</p>
-          </div>
-        </div>
-
-        <div className="grupo-footer">
-          <p className="titulo-footer">Emergência</p>
-          <div className="paragrafo-footer">
-            <p>Ouvidoria SUS 136</p>
-            <p>SAMU 192</p>
-            <p>Polícia Militar 190</p>
-            <p>Polícia Civil 197</p>
-            <p>Bombeiros 193</p>
-            <p>Centro de Assistência toxicológica 0800-644-6774</p>
-          </div>
-        </div>
-
-        <div className="grupo-footer">
-          <p className="titulo-footer">Suporte </p>
-          <div className="paragrafo-footer">
+        <div>
+          <FooterItem title="Suporte">
             <p>Conta</p>
             <p>FAQ</p>
             <p>Help Center</p>
-          </div>
-
-          <p className="titulo-footer">Dev Team </p>
-          <div className="paragrafo-footer">
-            <p>Gabriel Torres Fernandes - 553635</p>
+          </FooterItem>
+          <FooterItem title="Dev Team">
+            <p>Gabriel Torres Fernandes - 553635</p>  
             <p>Julia Gonzalez Pugliese Ribeiro - 553427</p>
-          </div>
+          </FooterItem>
+          
         </div>
+
       </div>
     </footer>
   );
