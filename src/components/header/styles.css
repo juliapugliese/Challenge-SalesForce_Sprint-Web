@@ -16,16 +16,17 @@ header nav {
     display: flex;
     justify-content: space-between;
     padding: 2px 6%;
-}
-
-header nav :nth-child(2){
+    font-family: var(--font-titulo);
     
 }
+
 
 
 header nav ul {
     display: flex;
     align-items: center;
+    list-style: none;
+
 }
 
 header nav > ul {

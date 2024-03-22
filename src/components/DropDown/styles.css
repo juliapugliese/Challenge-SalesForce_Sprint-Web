@@ -3,6 +3,6 @@ section{
     background-color: white;
 }
 
-li:hover{
+.dropdown:hover{
     cursor: pointer;
 }

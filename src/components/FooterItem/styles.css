@@ -1,23 +1,22 @@
-div{
+.footerItem{
     min-width: 7rem;
-
 }
   
-div > p {
-    height: 2rem;
+.footerItem p {
     width: auto;
     object-fit: contain;
     font-size: 14px;
     color: var(--nav-bar-text-color);
-    font-family: var(--font-titulo);
+    margin-bottom: 1.5rem;
 }
 
-div > .paragrafo-footer {
+.footerItem  .paragrafo-footer {
     row-gap: 10px;
     display: flex;
     flex-direction: column;
     color: var(--nav-bar-text-color);
-    margin: 2rem 0;
+    margin-bottom: 2rem;
+
 }
 
 

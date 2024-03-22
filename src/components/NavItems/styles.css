@@ -1,27 +1,26 @@
 
-li {
+.navItems {
     min-width: fit-content;
     height: fit-content;
-    list-style: none;
     font-weight: 500;
     cursor: pointer;
-    font-family: 'Montserrat';
     font-size: 15px;
     color: var(--nav-bar-text-color);
 
 }
-li a{
+.navItems a{
     text-decoration: none;
     color: var(--nav-bar-text-color);
 
 }
 
-li a:hover, li:hover {
+.navItems a:hover, .navItems:hover {
     color: var(--action-color);
 }
 
-li img {
+.navItems img {
     max-width: 70px;
+    display: block;
 }
 
 

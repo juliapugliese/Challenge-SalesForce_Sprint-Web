@@ -13,7 +13,7 @@ const DropDown = (props: Props) => {
       }
 
     return (
-        <li onClick={click1}>
+        <li className="dropdown" onClick={click1}>
             {props.text}
         </li>
     );

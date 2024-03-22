@@ -6,7 +6,7 @@ import Link from "next/link";
 const NavItems = (props: Props) => {
 
     return (
-        <li id={props.id}>
+        <li className="navItems" id={props.id}>
             <Link href={props.link}>{props.text || props.img}</Link>
             {props.children}
         </li>
