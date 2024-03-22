@@ -49,7 +49,6 @@ footer .conteudo-ilustrativo-footer .copyright > img {
 footer .conteudo-ilustrativo-footer .copyright > p {
     font-size: 12px;
     color: var(--nav-bar-text-color);
-    font-family: var(--font-titulo);
 }
  
 footer .logo-footer {
@@ -64,13 +63,3 @@ footer .baixe-nosso-app {
 footer .baixe-nosso-app > img {
     width: 10rem;
 }
-
-
-
-
-
-
-
-
-
-
