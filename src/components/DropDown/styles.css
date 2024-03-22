@@ -1,8 +1,32 @@
-section{
-    width: 100%;
-    background-color: white;
+.dpd-li:hover{
+    cursor: pointer;
 }
 
-.dropdown:hover{
-    cursor: pointer;
+.dpd-li{
+    font-size: 15px;
+}
+
+
+.dropdown{
+    width: 100%;
+}
+
+.dropdown > div{
+    background-color: rgb(188, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5rem;
+}
+.dropdown ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    column-gap: 40px;
+
+
+}
+
+.dropdown > div img{
+    width: 2rem;
 }

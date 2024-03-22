@@ -21,7 +21,6 @@
 
 
 .paragrafo-footer a {
-    font-family: var(--font-titulo);
     font-size: 12px;
     text-decoration: none;
     color: var(--action-color);

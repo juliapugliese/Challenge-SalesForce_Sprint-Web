@@ -1,7 +1,9 @@
 const ContactPage = () => 
 {
     return(
-        <></>
+        <>
+        </>
+        
     )
 }
 
