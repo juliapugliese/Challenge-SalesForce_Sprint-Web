@@ -1,0 +1,25 @@
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 5% 90px 5%;
+    text-align: center;
+}
+.section2 h2:first-child {
+    font-weight: bold;
+    color: var(--text-light);
+    margin-bottom: 5rem;
+    align-self: center;
+
+    font-size: 35px;
+    line-height: 52px;
+    max-width: 70rem;
+}
+
+.section2 .recursos-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+

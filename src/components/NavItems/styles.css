@@ -35,9 +35,7 @@
     box-shadow: 0 0 0 1px var(--nav-bar-text-color);
 
 }
-#login a {
-    color: var(--action-color);
-}
+
 #login:hover{
     background-color: var(--box-background-color);
     box-shadow: 0 0 0 1px var(--box-background-color);

@@ -4,5 +4,5 @@ export interface Props {
     children?: any;
     img?: any;
     id?: string;
-
+    alt: string;
 }
