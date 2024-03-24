@@ -1,0 +1,44 @@
+.icone-sobre {
+    width: 20rem;
+    min-width: 14rem;
+    box-shadow: -0.5rem 0.3rem 1rem rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.icone-sobre > img {
+    width: 100%;
+    height: 44%;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+.icone-sobre p {
+    color: var(--action-color);
+}
+
+
+.icone-sobre > div {
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.icone-sobre > div :first-child {
+    font-weight: normal;
+    margin-bottom: 10px; 
+    background-color: var(--box-background-color);
+    border-radius: 2rem;
+    text-align: left;
+    width: fit-content;
+    font-size: 10px;
+    line-height: 24px;
+    padding: 0 12px;
+    margin-bottom: 12px;
+}
+.icone-sobre > div :nth-child(2) {
+    font-weight: 550;
+    font-size: 16px; 
+}
+.icone-sobre > div :last-child {
+    font-weight: normal;
+    font-size: 13px;  
+    margin-top: 18px;
+}

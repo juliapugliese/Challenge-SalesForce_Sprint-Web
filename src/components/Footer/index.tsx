@@ -1,6 +1,7 @@
 import "./styles.css";
 import FooterItem from "../FooterItem";
 import LinkFooter from "../LinkFooter";
+import NavItems from "../NavItems";
 
 export function Footer() {
   return (
@@ -20,6 +21,17 @@ export function Footer() {
           </div>
 
           <div className="redes-sociais-grupo">
+
+            <ul>
+              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-k4R.png" alt="Logo do instagram"/>}/>
+
+              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-WTB.png" alt="Logo do instagram"/>}/>
+              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-WTB.png" alt="Logo do instagram"/>}/>
+              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-WTB.png" alt="Logo do instagram"/>}/>
+              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-WTB.png" alt="Logo do instagram"/>}/>
+
+            </ul>
+
             <img src="vector-WTB.png" alt="" />
             <img src="vector-WyF.png" alt="" />
             <img src="vector-Rmj.png" alt="" />

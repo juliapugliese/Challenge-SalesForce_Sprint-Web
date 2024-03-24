@@ -21,10 +21,8 @@ export function Header() {
     
                 <ul>
      
-                    <NavItems id="icone-busca" link="http://salesforce.com">
-                        <img className="logo-barra-pesquisa"  src="search-icon2.svg" alt=""/>
-                    </NavItems>
-                    
+                    <NavItems id="icone-busca" link="http://salesforce.com" img={<img className="logo-barra-pesquisa"  src="search-icon2.svg" alt=""/>}/>
+
                     <NavItems id="login" link="http://salesforce.com" text="Login"/>
                     <NavItems id="teste-gratis" link="http://salesforce.com" text="Teste Grátis"/>
                 </ul>

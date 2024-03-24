@@ -1,0 +1,8 @@
+.section2 > :nth-child(2) {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+

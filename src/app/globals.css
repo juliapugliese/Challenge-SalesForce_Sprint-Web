@@ -25,3 +25,21 @@ body{
   background-repeat: repeat-y;
   background-position-y: -20px;
 }
+
+section> h2:first-child {
+  font-weight: bold;
+  color: var(--text-light);
+  margin-bottom: 5rem;
+  align-self: center;
+
+  font-size: 35px;
+  line-height: 52px;
+  max-width: 70rem;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 5% 90px 5%;
+}
