@@ -11,13 +11,9 @@
 
 #icone-busca {
     border-radius: 50%;
-    padding: 7px 8px;
+    padding: 6px 8px;
 }
 
-
-#icone-busca > img{
-    width: 20px;
-}
 
 #teste-gratis {
     background-color: var(--action-color);

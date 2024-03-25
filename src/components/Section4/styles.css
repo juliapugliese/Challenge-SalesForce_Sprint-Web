@@ -3,12 +3,12 @@
     flex-direction: row;
     padding: 7rem 9% 8rem 9%;
     justify-content: space-between;
-
-
+    align-items: center;
 }
+
 .section4 > div{
     max-width: 40rem;
-
+    margin-right: 5rem;
 }
 
 .section4 > img{
@@ -49,6 +49,7 @@
 
 .section4 > div #saiba-mais a{
     color: var(--text-light);
+    font-weight: 500;
 }
 
 .section4 > div #teste-gratis-section{
@@ -56,4 +57,12 @@
 }
 .section4 > div #teste-gratis-section a{
     color: var(--action-color);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1300px) {
+    .section4 > img{
+        width: 33rem;
+        height: 28rem;
+    }
 }

@@ -16,7 +16,7 @@ export function Section4() {
             </div>
             
           </div>
-          <img src="homepage-img.png" alt=""/>
+          <img src="homepage-img.webp" alt=""/>
         </section>
     );
 }
