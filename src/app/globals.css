@@ -6,6 +6,7 @@
   --spirited-main-color: #DED2B9;
   --nav-bar-text-color: #0030a0;
   --box-background-color: #018dd32f;
+  --logos-footer-color: #004ca7;
   --font-titulo: 'Scada';
 }
 
@@ -28,7 +29,6 @@ body{
 
 section> h2:first-child {
   font-weight: bold;
-  color: var(--text-light);
   margin-bottom: 5rem;
   align-self: center;
 

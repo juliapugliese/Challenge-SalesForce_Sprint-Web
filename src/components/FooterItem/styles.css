@@ -6,7 +6,7 @@
     width: auto;
     object-fit: contain;
     font-size: 14px;
-    color: var(--nav-bar-text-color);
+    color: var(--nav-bar-text-color);    
     margin-bottom: 1.5rem;
 }
 

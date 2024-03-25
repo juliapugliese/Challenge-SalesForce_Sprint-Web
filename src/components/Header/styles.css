@@ -58,6 +58,11 @@ header nav :nth-child(2) li{
     padding: 10px 20px;
 }
 
+#logo  img {
+    max-width: 70px;
+    display: block;
+}
+
 header nav :first-child #logo{
     box-shadow: 0 0 0 1px var(--action-color);
     border-radius: 3rem;   

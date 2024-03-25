@@ -1,8 +1,17 @@
+.section2{
+    background-color: white;
+}
+
+.section2 > h2{
+    color: var(--action-color);
+}
+
 .section2 > :nth-child(2) {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    grid-gap: 5rem;
 }
 
 

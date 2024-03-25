@@ -2,12 +2,18 @@
     text-align: center;
 }
 
+.section1 > h2:first-child {
+    color: white;
+}
+
 .section1 .recursos-div{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-    gap: 2rem;
+    grid-gap: 2rem;
+    width: 80%;
+    align-self: center;
 }
 
 

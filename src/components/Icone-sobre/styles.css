@@ -1,7 +1,7 @@
 .icone-sobre {
     width: 20rem;
     min-width: 14rem;
-    box-shadow: -0.5rem 0.3rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0.5rem 0.3rem 1.5rem rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
     border-radius: 16px;
 }
@@ -23,7 +23,6 @@
 
 .icone-sobre > div :first-child {
     font-weight: normal;
-    margin-bottom: 10px; 
     background-color: var(--box-background-color);
     border-radius: 2rem;
     text-align: left;

@@ -11,8 +11,18 @@ footer {
 
 }
 
+footer .redes-sociais-grupo > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
 
-footer :first-child {
+footer .redes-sociais-grupo > ul li img {
+    max-width: 1.5rem;
+}
+
+footer > :first-child {
     max-width: 12rem;
 }
   
@@ -20,7 +30,7 @@ footer :first-child {
 footer .conteudo-ilustrativo-footer {
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 30px;
 }
 
 footer .conteudo-ilustrativo-footer .copyright{
@@ -60,6 +70,12 @@ footer .baixe-nosso-app {
     flex-direction: column;
 }
 
-footer .baixe-nosso-app > img {
+footer .baixe-nosso-app > p{
+    color: var(--nav-bar-text-color);
+}
+
+
+footer .baixe-nosso-app > ul img {
     width: 10rem;
+    margin-top: 6px;
 }

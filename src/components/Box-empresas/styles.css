@@ -1,0 +1,27 @@
+.empresas-parceiras{
+    box-sizing: border-box;
+    padding: 1.5rem 1.7rem;
+    width: 17rem;
+    min-width: 15rem;
+    box-shadow: -0.5rem 0.3rem 1rem rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 1.3rem;
+}
+
+.empresas-parceiras img{
+    height: 3rem;
+    width: 10rem;
+    object-fit: contain;
+}
+
+.empresas-parceiras > div p {
+    font-weight: normal;
+    margin-top: 10px; 
+    background-color: var(--box-background-color);
+    border-radius: 2rem;
+    text-align: left;
+    width: fit-content;
+    font-size: 10px;
+    line-height: 24px;
+    padding: 0 12px;
+}

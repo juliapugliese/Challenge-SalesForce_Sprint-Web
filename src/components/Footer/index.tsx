@@ -24,25 +24,21 @@ export function Footer() {
 
             <ul>
               <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-k4R.png" alt="Logo do instagram"/>}/>
-
-              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-WTB.png" alt="Logo do instagram"/>}/>
-              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-WTB.png" alt="Logo do instagram"/>}/>
-              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-WTB.png" alt="Logo do instagram"/>}/>
-              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-WTB.png" alt="Logo do instagram"/>}/>
+              <NavItems link="https://www.facebook.com/SalesforceBrasil/" img={<img src="vector-WTB.png" alt="Logo do facebook"/>}/>
+              <NavItems link="https://br.linkedin.com/company/salesforce" img={<img src="vector-GyX.png" alt="Logo do Linkedin"/>}/>
+              <NavItems link="https://twitter.com/salesforce" img={<img src="x-logo.svg" alt="Logo do x"/>}/>
+              <NavItems link="https://www.youtube.com/c/SalesforceBrasil" img={<img src="vector-Rmj.png" alt="Logo do YouTube"/>}/>
 
             </ul>
-
-            <img src="vector-WTB.png" alt="" />
-            <img src="vector-WyF.png" alt="" />
-            <img src="vector-Rmj.png" alt="" />
-            <img src="vector-GyX.png" alt="" />
-            <img src="vector-k4R.png" alt="" />
           </div>
         </div>
 
         <div className="baixe-nosso-app">
           <p>Baixe nosso app</p>
-          <img src="vector.png" />
+          <ul>
+            <NavItems link="https://apps.apple.com/us/app/salesforce/id404249815" img={<img src="app-apple-appstore.png" alt="Logo da appstore"/>}/>
+            <NavItems link="https://play.google.com/store/apps/details?id=com.salesforce.chatter" img={<img src="app-google-play.png" alt="Logo da googleplay"/>}/>
+          </ul>
         </div>
       </div>
 
