@@ -7,7 +7,7 @@ export function Section2() {
 
         <section className="section2">
         
-            <h2>Saiba como os produtos Salesforce ajudam você a reduzir custos e economizar tempo.</h2>
+            <h2 id="s2">Todo tipo de conteúdo. Tudo para te ajudar a crescer.</h2>
         
             <div>
                 <IconeSobre link="" img="1state-of-sales-resource-card.png" alt="" tag="Relatório" title="Leia nosso último relatório da Pesquisa State of Sales." text="Saiba como mais de 7.700 profissionais de vendas estão obtendo sucesso imediato."/>

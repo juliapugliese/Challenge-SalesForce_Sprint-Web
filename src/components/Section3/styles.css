@@ -1,25 +1,25 @@
-.section3 > h2:first-child {
-    color: white;
+.section3{
+    background-color: var(--text-light);
 }
 
 .section3 > ul{
     display: flex;
-    grid-gap: 16px;
+    grid-gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 .section3 ul > :first-child{
     max-width: 10rem;
+    margin-right: 15px;
 }
 
 .section3 ul > :first-child > h2{
     font-weight: bold;
-    margin-bottom: 5rem;
-
-    color: white;
-    font-size: 22px;
-    line-height: 29px;
+    color: var(--action-color);
+    font-size: 26px;
+    line-height: 33px;
     text-align: left;
 }
