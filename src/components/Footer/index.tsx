@@ -88,8 +88,9 @@ export function Footer() {
         </FooterItem>
 
         <FooterItem title="Dev Team">
-          <LinkFooter link="" text="Gabriel Torres Fernandes - 553635"/> 
+          <LinkFooter link="https://www.github.com/gabrieltf1901" text="Gabriel Torres Fernandes - 553635"/> 
           <LinkFooter link="https://www.linkedin.com/in/julia-pugliese" text="Julia Gonzalez Pugliese Ribeiro - 553427"/>
+          <LinkFooter link="https://www.linkedin.com/in/lucas-ponciani-marinelli" text="Lucas Ponciani Marinelli - 553112"/> 
         </FooterItem>
         
       </div>

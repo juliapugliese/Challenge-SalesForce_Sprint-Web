@@ -32,47 +32,75 @@ header nav ul .logo-barra-pesquisa{
     width: 1.4rem;
 }
 
-header nav :first-child {
+header nav .ul1 {
     gap: 50px;
     color: var(--nav-bar-text-color);
     font-size: 15px;
 }
 
-header nav :first-child:hover {
+header nav .ul1:hover {
     color: var(--action-color);
 }
 
 
 
 
-header nav :nth-child(2) {
+header nav .ul2 {
     gap: 25px;
 }
 
 
-header nav :nth-child(2) li a {
+header nav .ul2 li a {
     font-size: 14px;
 }
 
-header nav :nth-child(2) li{
+header nav .ul2 li{
     box-shadow: 0 0 0 1px var(--action-color);
     border-radius: 3rem;   
     padding: 10px 20px;
 }
 
-#logo  img {
+#logo img {
     max-width: 70px;
     display: block;
 }
 
-header nav :first-child #logo{
+header nav #logo{
     box-shadow: 0 0 0 1px var(--action-color);
     border-radius: 3rem;   
     padding: 6px 16px;
 }
 
-header nav :first-child  #logo:hover{
+header nav #logo:hover{
     box-shadow: 0 0 0 1px var(--box-background-color);
     background-color: var(--box-background-color);
 
+}
+
+.hamburguer{
+    display: none;
+    border: none;
+    background: none;
+    border-top: 3px solid var(--action-color);
+    cursor: pointer;
+    align-self: center;
+}
+.hamburguer::before, .hamburguer::after{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: var(--action-color);
+    margin-top: 5px;
+}
+@media (max-width: 1080px) {
+    .hamburguer{
+        display: block;
+    }
+    header nav .ul1{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vh;
+    }
 }
