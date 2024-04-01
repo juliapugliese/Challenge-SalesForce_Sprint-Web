@@ -10,7 +10,7 @@ export function Header() {
         <header>
             <nav className={`nav ${isNavActive ? 'active' : ''}`}>
                 <div>
-                    <NavItems link="https://www.salesforce.com/br" id="logo" img={<img src="salesforce-logo.png" alt="Logo da SalesForce"/>}/>
+                    <NavItems link="http://localhost:3000/" id="logo" img={<img src="salesforce-logo.png" alt="Logo da SalesForce"/>}/>
                     <button className="hamburguer" onClick={() => setIsNavActive(!isNavActive)}></button>
 
                     <ul className="ul1">
@@ -23,7 +23,7 @@ export function Header() {
 
                 <ul className="ul2">
                     <NavItems id="icone-busca" link="http://salesforce.com" img={<img className="logo-barra-pesquisa" src="search-icon2.svg" alt=""/>}/>
-                    <NavItems id="login" link="produtos" text="Login"/>
+                    <NavItems id="login" link="login" text="Login"/>
                     <NavItems id="teste-gratis" link="http://salesforce.com" text="Teste Grátis"/>
                 </ul>
             </nav>
