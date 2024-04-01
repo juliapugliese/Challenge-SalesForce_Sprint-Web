@@ -8,7 +8,7 @@ footer {
     justify-content: space-between;
     gap: 40px;
     text-align: left;
-
+    background-position: right;
 }
 
 footer .redes-sociais-grupo > ul {
@@ -78,4 +78,32 @@ footer .baixe-nosso-app > p{
 footer .baixe-nosso-app > ul img {
     width: 10rem;
     margin-top: 6px;
+}
+
+
+@media screen and (max-width: 785px) {
+    footer{
+        flex-wrap: wrap;
+        padding: 45% 10% 0 10%;
+    }
+}
+
+@media screen and (max-width: 732px) {
+    footer{
+        padding-top: 70%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    footer{
+        padding-top: 85%;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    footer{
+        padding-top: 150%;
+        text-align: center;
+        justify-content: center;
+    }
 }

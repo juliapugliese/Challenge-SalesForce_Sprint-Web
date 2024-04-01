@@ -68,7 +68,16 @@
 }
 
 @media screen and (max-width: 1080px) {
+    .section4{
+        justify-content: center;
+    }
     .section4 > img{
         display: none;
+    }
+    .section4 > div > h2{
+        text-align: center;
+    }
+    .section4 > div {
+        margin-right: 0;
     }
 }
