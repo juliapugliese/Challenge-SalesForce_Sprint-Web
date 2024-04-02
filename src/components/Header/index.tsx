@@ -16,7 +16,7 @@ export function Header() {
                     <ul className="ul1">
                         <NavItems link="http://salesforce.com" text="Produtos"/>
                         <NavItems link="http://salesforce.com" text="Empresa"/>
-                        <NavItems link="http://salesforce.com" text="Suporte"/>
+                        <NavItems link="devteam" text="Suporte"/>
                         <NavItems link="http://salesforce.com" text="Aprendizado"/>
                     </ul>
                 </div>
