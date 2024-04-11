@@ -2,19 +2,46 @@
 import "./styles.css";
 import React, { useState } from 'react';
 import NavItems from "@/components/NavItems";
+import Button from "@/components/Button";
+import FormInput from "@/components/FormInput";
 const Page = () => {
-  const [username, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    console.log('Email:', username);
-    console.log('Senha:', password);
+
+  const [form, setForm] = useState({
+      username: "",
+      password: ""
+
+  });
+
+  const sendForm = (event: any) => {
+    fetch('https://endereco.do.leo.com.br/api/client', {
+        method: 'post',
+        body: {
+            nomeBack : form.name,
+            fullAddress: form.address
+
+        }
+    })
   };
+
+  const changeState = (type: string, value: string) => {
+    setForm({
+        ...form,
+        [type]: value
+    })
+  }
+
+  // const [username, setEmail] = useState('');
+  // const [password, setPassword] = useState('');
+  // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   console.log('Email:', username);
+  //   console.log('Senha:', password);
+  // };
   return (
     <div className="login-page">
       <div>
         <img src="salesforce-logo.png" alt="Logo da SalesForce"/>
-        <form onSubmit={handleSubmit} className="form">
+        {/* <form onSubmit={handleSubmit} className="form">
 
           <h3>Nome de usuáro</h3>
           <input
@@ -33,9 +60,27 @@ const Page = () => {
             placeholder="Senha"
             className="input-field"
           />
-
           <button type="submit" className="submit-button">Login</button>
-        </form>
+        </form> */}
+        <div className="form">
+          <h3>Nome de usuáro</h3>
+
+          <FormInput className="input-field" label="NomeUsuario" value={form.username} onChange={
+              (event: any) => {
+              changeState('username', event.target.value);
+          } }/>
+
+          <h3>Senha</h3>
+
+          <FormInput className="input-field" label="Senha" value={form.password} onChange={
+              (event: any) => {
+              changeState('password', event.target.value);
+          } }/>
+
+          <Button type="submit" className="submit-button" text="Login" onClick={sendForm}/>
+
+        </div>
+        
 
         <div className="complementos">
           <div>
