@@ -27,7 +27,7 @@
 .login-page > :nth-child(2) > h2{
     font-weight: bold;
     color: var(--text-light);
-    font-size: 45px;
+    font-size: 42px;
     line-height: 75px;
     margin-bottom: 3rem;
 }
@@ -96,6 +96,7 @@
     color: var(--text-light);
     font-family: inherit;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .login-page .complementos div{
