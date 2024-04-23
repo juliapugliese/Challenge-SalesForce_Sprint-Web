@@ -120,7 +120,7 @@ header nav :first-child{
         background-color: var(--action-color);
         clip-path: circle(100px at 90% -30%);
         transition: 0.5s ease-out;
-        padding-top: 20px;
+        padding-top: 40px;
 
         flex-direction: column;
         justify-content: space-around;
@@ -141,5 +141,11 @@ header nav :first-child{
     }
     header .nav.active .hamburguer::before, header .nav.active .hamburguer::after{
         background-color: var(--text-light);
+    }
+}
+
+@media (max-width: 500px) {
+    header nav .ul1{
+        padding-top: 60px;
     }
 }
