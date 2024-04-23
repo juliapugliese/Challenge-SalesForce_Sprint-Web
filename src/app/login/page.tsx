@@ -65,14 +65,14 @@ const Page = () => {
         <div className="form">
           <h3>Nome de usuáro</h3>
 
-          <FormInput className="input-field" label="NomeUsuario" value={form.username} onChange={
+          <FormInput className="input-field" placeholder="Nome de Usuário" value={form.username} onChange={
               (event: any) => {
               changeState('username', event.target.value);
           } }/>
 
           <h3>Senha</h3>
 
-          <FormInput className="input-field" label="Senha" value={form.password} onChange={
+          <FormInput className="input-field" placeholder="Senha" value={form.password} onChange={
               (event: any) => {
               changeState('password', event.target.value);
           } }/>
@@ -104,6 +104,7 @@ const Page = () => {
 
 
       </div>
+      
       <div>
         <h2>Entregue sucesso agora com o Salesforce Customer 360.</h2>
         <p>O Customer 360 é a nossa suíte de produtos e serviços que ajuda 98% dos clientes a alcançar ou superar suas metas de ROI.</p>

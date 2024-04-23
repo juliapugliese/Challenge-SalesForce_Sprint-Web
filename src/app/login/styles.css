@@ -44,11 +44,11 @@
     grid-gap: 3rem;
 }
 
-.login-page > :nth-child(2) > :nth-child(3) li, .login-page form .input-field, .login-page form .submit-button, .complementos > div #teste-gratis-section {
-
+.login-page > :nth-child(2) > :nth-child(3) li, .login-page .form .input-field > input, .login-page .form .submit-button, .complementos > div #teste-gratis-section {
     box-shadow: 0 0 0 1px var(--text-light);
     border-radius: 3rem;
     padding: 10px 20px;
+    border-style: none;
 
 }
 
@@ -72,23 +72,25 @@
     align-items: center;
     text-align: center;
 }
-.login-page form{
+
+.login-page .form{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.login-page form h3{
+.login-page .form h3{
     color: var(--text-light);
     font-size: 18px;
     font-weight: 600;
 }
 
-.login-page form .input-field{
-    border-style: none;
+.login-page .form .input-field > input{
     min-width: 14rem;
+    font-family: inherit;
+
 }
 
-.login-page form .submit-button{
+.login-page .form .submit-button{
     border-style: none;
     background-color: transparent;
     color: var(--text-light);

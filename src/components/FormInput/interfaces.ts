@@ -1,6 +1,7 @@
 export interface Props{
-    label: string;
+    label?: string;
     value: string;
     onChange: any;
     className?: string;
+    placeholder?: string;
 }
