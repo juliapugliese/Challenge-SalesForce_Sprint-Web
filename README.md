@@ -20,17 +20,9 @@ O projeto é feito para o E-Commerce da empresa SalesForce e consiste em uma pá
 - Modularidade e Reutilização: Através da componentização com REACT + TypeScript.
 - Layout responsivo e adaptável: Garantia de funcionalidade e aparência adequada em diferentes dispositivos.
 
-
 ## Desenvolvimento:
-
 #### Escopo do projeto no FIGMA
 [Link do protótipo de telas do FIGMA](https://www.figma.com/team_invite/redeem/nbqdyjaXMVR22P6UV0nRKJ)
-
-### Página Principal
-<img width=100% src="https://github.com/juliapugliese/Challenge-SalesForce_Sprint-Web/blob/main/Documentacao/PaginaPrincipal.svg" />
-
-### Página de Login
-<img width=100% src="https://github.com/juliapugliese/Challenge-SalesForce_Sprint-Web/blob/main/Documentacao/PaginaLogin.svg" />
 
 ## Resultado REACT + TypeScript
 ### Página Principal
@@ -38,6 +30,7 @@ O projeto é feito para o E-Commerce da empresa SalesForce e consiste em uma pá
 
 ### Página de Login
 <img width=100% src="https://github.com/juliapugliese/Challenge-SalesForce_Sprint-Web/blob/main/Documentacao/PaginaLoginResult.jpeg" />
+
 
 # Próximos passos
 
