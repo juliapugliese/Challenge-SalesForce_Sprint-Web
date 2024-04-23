@@ -34,10 +34,10 @@ O projeto é feito para o E-Commerce da empresa SalesForce e consiste em uma pá
 
 ## Resultado REACT + TypeScript
 ### Página Principal
-<img width=100% src="https://github.com/juliapugliese/Challenge-SalesForce_Sprint-Web/blob/main/Documentacao/PaginaPrincipalResult.jpge" />
+<img width=100% src="https://github.com/juliapugliese/Challenge-SalesForce_Sprint-Web/blob/main/Documentacao/PaginaPrincipalResult.jpeg" />
 
 ### Página de Login
-<img width=100% src="https://github.com/juliapugliese/Challenge-SalesForce_Sprint-Web/blob/main/Documentacao/PaginaLoginResult.jpge" />
+<img width=100% src="https://github.com/juliapugliese/Challenge-SalesForce_Sprint-Web/blob/main/Documentacao/PaginaLoginResult.jpeg" />
 
 # Próximos passos
 
