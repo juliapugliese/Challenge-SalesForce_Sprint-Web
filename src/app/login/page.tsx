@@ -9,7 +9,6 @@ const Page = () => {
   const [form, setForm] = useState({
       username: "",
       password: ""
-
   });
 
   const sendForm = (event: any) => {
@@ -18,7 +17,6 @@ const Page = () => {
         body: {
             nomeBack : form.name,
             fullAddress: form.address
-
         }
     })
   };
