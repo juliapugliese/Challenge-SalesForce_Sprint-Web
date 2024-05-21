@@ -37,6 +37,7 @@ export default function DevTeam() {
 
       </div>
       <a href="https://youtu.be/Vab13n03agE?si=7adNvFXgHVTL-qvp">Youtube</a>
+      <a href="https://challenge-sales-force-sprint-web.vercel.app/">Vercel</a>
       <a href="https://www.figma.com/team_invite/redeem/nbqdyjaXMVR22P6UV0nRKJ">Figma</a>
       <a href="https://github.com/juliapugliese/Challenge-SalesForce_Sprint-Web">GitHub</a>
 
