@@ -22,9 +22,9 @@ export function Header() {
                 </div>
 
                 <ul className="ul2">
-                    <NavItems id="icone-busca" link="http://salesforce.com" img={<img className="logo-barra-pesquisa" src="search-icon2.svg" alt=""/>}/>
+                    <NavItems id="icone-busca" link="http://salesforce.com" img={<img className="logo-barra-pesquisa" src="search-icon2.svg" alt="icone de lupa"/>}/>
                     <NavItems id="login" link="login" text="Login"/>
-                    <NavItems id="teste-gratis" link="http://salesforce.com" text="Teste Grátis"/>
+                    <NavItems id="teste-gratis" link="cadastro" text="Teste Grátis"/>
                 </ul>
             </nav>
         </header>

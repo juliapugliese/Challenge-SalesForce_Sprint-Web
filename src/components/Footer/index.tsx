@@ -44,14 +44,14 @@ export function Footer() {
 
       <FooterItem title="Ainda não conhece a Salesforce?">
         
-        <LinkFooter link="" text="O que é CRM?"/>
-        <LinkFooter link="" text="O que é a Salesforce?"/>
-        <LinkFooter link="" text="Software de automação de marketing"/>
-        <LinkFooter link="" text="Explorar todos os produtos"/>
-        <LinkFooter link="" text="O que é computação na nuvem?"/>
-        <LinkFooter link="" text="Histórias de Clientes"/>
-        <LinkFooter link="" text="Edições e Preços"/>
-        <LinkFooter link="" text="Política de Privacidade"/>
+        <LinkFooter link="https://www.salesforce.com/br" text="O que é CRM?"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="O que é a Salesforce?"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Software de automação de marketing"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Explorar todos os produtos"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="O que é computação na nuvem?"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Histórias de Clientes"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Edições e Preços"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Política de Privacidade"/>
 
       </FooterItem>
 
@@ -70,21 +70,21 @@ export function Footer() {
       <FooterItem title="Links populares">
 
 
-        <LinkFooter link="" text="Novos recursos e lançamentos"/>
-        <LinkFooter link="" text="Salesforce para pequenas empresas"/>
-        <LinkFooter link="" text="Encontre ou torne-se um parceiro"/>
-        <LinkFooter link="" text="CRM Software"/>
-        <LinkFooter link="" text="Salesforce LIVE"/>
-        <LinkFooter link="" text="Dreamforce"/>
-        <LinkFooter link="" text="Salesforce Mobile"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Novos recursos e lançamentos"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Salesforce para pequenas empresas"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Encontre ou torne-se um parceiro"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="CRM Software"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Salesforce LIVE"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Dreamforce"/>
+        <LinkFooter link="https://www.salesforce.com/br/" text="Salesforce Mobile"/>
 
 
       </FooterItem>
 
       <div>
         <FooterItem title="Suporte">
-          <LinkFooter link="" text="Entre em contato"/>
-          <LinkFooter link="" text="0800 891 1887"/>
+          <LinkFooter link="https://www.salesforce.com/br/" text="Entre em contato"/>
+          <LinkFooter link="https://www.salesforce.com/br/" text="0800 891 1887"/>
         </FooterItem>
 
         <FooterItem title="Dev Team">
