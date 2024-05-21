@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import NavItems from "@/components/NavItems";
 import Button from "@/components/Button";
 import FormInput from "@/components/FormInput";
+import Image from 'next/image';
 const Page = () => {
 
   const [form, setForm] = useState({
@@ -32,7 +33,7 @@ const Page = () => {
   return (
     <div className="login-page">
       <div>
-        <img src="salesforce-logo.png" alt="Logo da SalesForce"/>
+        <Image src="salesforce-logo.png" alt="Logo da SalesForce"/>
 
         <div className="form">
           <h3>Nome de usuáro</h3>

@@ -1,6 +1,7 @@
 'use client'
 import "./styles.css"
 import NavItems from "../NavItems";
+import Image from "next/image";
 
 
 export function Section4() {
@@ -16,7 +17,7 @@ export function Section4() {
             </div>
             
           </div>
-          <img src="homepage-img.webp" alt=""/>
+          <Image src="homepage-img.webp" alt=""/>
         </section>
     );
 }

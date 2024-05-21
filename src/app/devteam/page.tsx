@@ -1,5 +1,6 @@
 'use client'
 import "./styles.css"
+import Image from 'next/image';
 export default function DevTeam() {
 
     return (
@@ -8,7 +9,7 @@ export default function DevTeam() {
       <div>
 
         <div>
-          <img src="gabriel-torres.png" alt="foto do integrante da equipe Gabriel Torres Fernandes" />
+          <Image src="gabriel-torres.png" alt="foto do integrante da equipe Gabriel Torres Fernandes" />
           <h3>Gabriel Torres Fernandes</h3>
           <p>RM: 553635 - 1TDSPC</p>
           <p>GitHub: <a href="https://github.com/gabrieltf1901">gabrieltf1901</a></p>
@@ -17,7 +18,7 @@ export default function DevTeam() {
         </div>
 
         <div>
-          <img src="julia-gonzalez.png" alt="foto da integrante da equipe Julia Gonzalez Pugliese Ribeiro" />
+          <Image src="julia-gonzalez.png" alt="foto da integrante da equipe Julia Gonzalez Pugliese Ribeiro" />
           <h3>Julia Gonzalez Pugliese Ribeiro</h3>
           <p>RM: 553427 - 1TDSPC</p>
           <p>GitHub: <a href="https://github.com/juliapugliese/">juliapugliese</a></p>
@@ -26,7 +27,7 @@ export default function DevTeam() {
         </div>
 
         <div>
-          <img src="Lucas.png" alt="foto do integrante da equipe Lucas Ponciani Marinelli" />
+          <Image src="Lucas.png" alt="foto do integrante da equipe Lucas Ponciani Marinelli" />
           <h3>Lucas Ponciani Marinelli</h3>
           <p>RM: 553112 - 1TDSPC</p>
           <p>GitHub: <a href="https://github.com/LucasMarinelli">LucasMarinelli</a></p>

@@ -1,6 +1,7 @@
 'use client'
 import "./styles.css"
 import Recursos from "../Vetor-recursos";
+import Image from "next/image";
 
 
 export function Section1() {
