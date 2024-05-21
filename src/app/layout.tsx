@@ -16,8 +16,8 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
       <Head>
         <title>Portal SalesForce</title>
         <meta name="description" content="Portal criado para a empresa SalesForce" />
-        <Script src="https://vlibras.gov.br/app/vlibras-plugin.js" strategy="afterInteractive"></Script>
       </Head>
+      <Script src="https://vlibras.gov.br/app/vlibras-plugin.js" strategy="afterInteractive"></Script>
       <main className={montserrat.className}>
         <VLibras />
         <Header />
