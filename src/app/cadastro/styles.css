@@ -1,7 +1,10 @@
 .pagina-cadastro{
     padding: 5rem 0 5rem 9rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    gap: 3rem;
     
 }
 
@@ -31,6 +34,7 @@
     display: flex;
     gap: 2rem;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .pagina-cadastro > :first-child  > h2{
@@ -98,6 +102,14 @@
     font-weight: 500;
     cursor: pointer;
     width: 30%;
+    min-width: 8rem;
     align-self: center;
 }
 
+@media (max-width: 1200px) {
+    .pagina-cadastro{
+        gap: 7rem;
+        justify-content: center;
+        padding: 7rem 0;
+    }
+}
