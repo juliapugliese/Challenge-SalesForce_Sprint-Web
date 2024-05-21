@@ -1,26 +1,30 @@
-import type { Metadata } from "next";
 import { montserrat } from "@/app/fonts";
 import "./globals.css";
 import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
+import { ReactNode } from "react";
+import VLibras from "@/components/Vlibras/VLibras";
+import Head from "next/head";
 
+interface RootLayoutProps {
+  children: ReactNode;
+}
 
-export const metadata: Metadata = {
-  title: "Portal SalesForce",
-  description: "Portal criado para a empresa SalesForce",
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
+  return (
+    <>
+      <Head>
+        <title>Portal SalesForce</title>
+        <meta name="description" content="Portal criado para a empresa SalesForce" />
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      </Head>
+      <main className={montserrat.className}>
+        <VLibras />
+        <Header />
+        {children}
+      </main>
+    </>
+  );
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body className={montserrat.className}>
-        <Header/>
-        {children}
-      </body>
-    </html>
-  );
-}
+export default RootLayout;
+
