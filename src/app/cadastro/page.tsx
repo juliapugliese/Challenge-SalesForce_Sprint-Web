@@ -4,7 +4,6 @@ import NavItems from "@/components/NavItems";
 import React, { useState } from 'react';
 import Button from "@/components/Button";
 import FormInput from "@/components/FormInput";
-import Image from 'next/image';
 
 export default function Cadastro() {
     const [form, setForm] = useState({
@@ -72,7 +71,7 @@ export default function Cadastro() {
     return (
         <div className="pagina-cadastro">
             <div>
-                <Image src="salesforce-logo.png" alt="Logo da SalesForce"/>    
+                <img src="salesforce-logo.png" alt="Logo da SalesForce"/>    
                 <h2>Experimente nossa solução completa de CRM e vendas, grátis por 30 dias.</h2>
                 <div>
                     <p>Com o Sales Cloud Professional Edition, você tem acesso a:</p>

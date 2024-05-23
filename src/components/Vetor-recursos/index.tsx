@@ -2,7 +2,6 @@
 import { Props } from "./interfaces";
 import "./styles.css"
 import Link from "next/link";
-import Image from "next/image";
 
 
 const Recursos = (props: Props) => {
@@ -10,7 +9,7 @@ const Recursos = (props: Props) => {
     return (
 
         <Link className="vetor-recursos" href={props.link}>
-            <Image src={props.img} alt={props.alt}/>
+            <img src={props.img} alt={props.alt}/>
             <div>
                 <p>{props.title}</p>
                 <p>{props.text}</p>

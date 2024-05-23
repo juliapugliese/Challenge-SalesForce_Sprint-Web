@@ -2,7 +2,6 @@ import "./styles.css";
 import FooterItem from "../FooterItem";
 import LinkFooter from "../LinkFooter";
 import NavItems from "../NavItems";
-import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -10,11 +9,11 @@ export function Footer() {
 
       
       <div className="conteudo-ilustrativo-footer">
-        <Image className="logo-footer" src="Salesforce-Logo.png" alt="logo salesforce"/>
+        <img className="logo-footer" src="Salesforce-Logo.png" alt="logo salesforce"/>
 
         <div>
           <div className="copyright">
-            <Image
+            <img
               id="logo-copyright"
               src="ph-copyright.png"
               alt="logo copyright"
@@ -25,11 +24,11 @@ export function Footer() {
           <div className="redes-sociais-grupo">
 
             <ul>
-              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<Image src="vector-k4R.png" alt="Logo do instagram"/>}/>
-              <NavItems link="https://www.facebook.com/SalesforceBrasil/" img={<Image src="vector-WTB.png" alt="Logo do facebook"/>}/>
-              <NavItems link="https://br.linkedin.com/company/salesforce" img={<Image src="vector-GyX.png" alt="Logo do Linkedin"/>}/>
-              <NavItems link="https://twitter.com/salesforce" img={<Image src="x-logo.svg" alt="Logo do x"/>}/>
-              <NavItems link="https://www.youtube.com/c/SalesforceBrasil" img={<Image src="vector-Rmj.png" alt="Logo do YouTube"/>}/>
+              <NavItems link="https://www.instagram.com/salesforcebrasil/" img={<img src="vector-k4R.png" alt="Logo do instagram"/>}/>
+              <NavItems link="https://www.facebook.com/SalesforceBrasil/" img={<img src="vector-WTB.png" alt="Logo do facebook"/>}/>
+              <NavItems link="https://br.linkedin.com/company/salesforce" img={<img src="vector-GyX.png" alt="Logo do Linkedin"/>}/>
+              <NavItems link="https://twitter.com/salesforce" img={<img src="x-logo.svg" alt="Logo do x"/>}/>
+              <NavItems link="https://www.youtube.com/c/SalesforceBrasil" img={<img src="vector-Rmj.png" alt="Logo do YouTube"/>}/>
 
             </ul>
           </div>
@@ -38,8 +37,8 @@ export function Footer() {
         <div className="baixe-nosso-app">
           <p>Baixe nosso app</p>
           <ul>
-            <NavItems link="https://apps.apple.com/us/app/salesforce/id404249815" img={<Image src="app-apple-appstore.png" alt="Logo da appstore"/>}/>
-            <NavItems link="https://play.google.com/store/apps/details?id=com.salesforce.chatter" img={<Image src="app-google-play.png" alt="Logo da googleplay"/>}/>
+            <NavItems link="https://apps.apple.com/us/app/salesforce/id404249815" img={<img src="app-apple-appstore.png" alt="Logo da appstore"/>}/>
+            <NavItems link="https://play.google.com/store/apps/details?id=com.salesforce.chatter" img={<img src="app-google-play.png" alt="Logo da googleplay"/>}/>
           </ul>
         </div>
       </div>
